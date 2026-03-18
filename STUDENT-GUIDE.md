@@ -37,7 +37,7 @@ The skill here is not CSS memorization. It is developing an eye for visual quali
 ## Starting Point
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/modernvibecoding/build-a-polished-landing-page-starter.git
 cd build-a-polished-landing-page-starter
 npm install
 npm run dev
