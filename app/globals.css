@@ -1,39 +1,34 @@
 @import "tailwindcss";
 
 @theme {
-  /* === Modern Vibe Coding — Design Tokens === */
-  /* Dark mode first. Do not change these values. */
+  /* === Landing Page Starter — Light Theme Tokens === */
+  /* Customize these for your product. */
 
   /* Backgrounds */
-  --color-background:    #141414;
-  --color-surface:       #282828;
-  --color-surface-alt:   #1A1A1A;
-  --color-surface-hover: #333333;
+  --color-background:    #FFFFFF;
+  --color-surface:       #F9FAFB;
+  --color-surface-alt:   #F3F4F6;
+  --color-surface-hover: #E5E7EB;
 
-  /* Gold Accent */
-  --color-gold:         #F5C754;
-  --color-gold-border:  #d4a843;
-  --color-gold-hover:   #E8B845;
-  --color-gold-light:   #3c3c3c;
+  /* Accent — replace with your brand color */
+  --color-accent:        #2563EB;
+  --color-accent-hover:  #1D4ED8;
+  --color-accent-light:  #EFF6FF;
 
   /* Text */
-  --color-text-primary:   #EBEBEB;
-  --color-text-body:      #B0B0B0;
-  --color-text-secondary: #8A8A8A;
-  --color-text-muted:     #6E6E6E;
+  --color-text-primary:   #111827;
+  --color-text-body:      #374151;
+  --color-text-secondary: #6B7280;
+  --color-text-muted:     #9CA3AF;
 
   /* Borders */
-  --color-border:     #3c3c3c;
-  --color-border-alt: #3c3c3c;
+  --color-border:     #E5E7EB;
+  --color-border-alt: #D1D5DB;
 
   /* Status */
-  --color-success:    #4CAF50;
-  --color-success-bg: #1A2E1C;
-  --color-error:      #ef4444;
-  --color-warning:    #f59e0b;
-
-  /* Dark */
-  --color-dark: #0E0E0E;
+  --color-success:    #16A34A;
+  --color-error:      #DC2626;
+  --color-warning:    #D97706;
 
   /* Radius */
   --radius-sm:   4px;
@@ -42,21 +37,11 @@
   --radius-full: 9999px;
 
   /* Shadows */
-  --shadow-card:  none;
-  --shadow-modal: 0 8px 40px rgba(0, 0, 0, 0.6);
+  --shadow-card:  0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-modal: 0 8px 40px rgba(0, 0, 0, 0.15);
 }
 
 body {
   background-color: var(--color-background);
   color: var(--color-text-body);
-  font-family: "IBM Plex Mono", "Courier New", Courier, monospace;
 }
-
-html {
-  scrollbar-color: #4a4a4a #282828;
-}
-
-::-webkit-scrollbar            { width: 8px; height: 8px; }
-::-webkit-scrollbar-track      { background: #282828; }
-::-webkit-scrollbar-thumb      { background: #4a4a4a; border-radius: 4px; }
-::-webkit-scrollbar-thumb:hover { background: #5a5a5a; }

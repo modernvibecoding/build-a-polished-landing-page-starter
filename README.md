@@ -19,11 +19,13 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## What to Build
 
-Replace placeholder sections with real content:
+Build a 6-section landing page. Replace placeholder sections with real content:
 
+- Navbar: logo, navigation links, primary CTA button
 - Hero: headline, subheadline, primary CTA
-- Features: 3 value propositions with icons or visuals
+- Features: 6 feature cards in a 3-column grid, each with icon, title, and 2-sentence description
 - Social proof: logos, testimonials, or a key stat
+- Pricing: at least two tiers with feature lists and CTA buttons
 - Footer: nav links and legal copy
 
 ## Deploy
