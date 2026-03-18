@@ -24,8 +24,8 @@ Build a 6-section landing page. Replace placeholder sections with real content:
 - Navbar: logo, navigation links, primary CTA button
 - Hero: headline, subheadline, primary CTA
 - Features: 6 feature cards in a 3-column grid, each with icon, title, and 2-sentence description
-- Social proof: logos, testimonials, or a key stat
-- Pricing: at least two tiers with feature lists and CTA buttons
+- Social proof: 3 testimonial cards, each with quote, name, role, company, and star rating
+- Pricing: Free tier (4 features, "Get Started" CTA) and Pro tier ($19/mo, 6 features, "Start Free Trial" CTA, "Most Popular" badge)
 - Footer: nav links and legal copy
 
 ## Deploy

@@ -28,16 +28,18 @@ Design and build a conversion-focused landing page that looks production-ready: 
 
 ### Content
 - [ ] Write a one-sentence product description
-- [ ] Write the hero headline and subheadline
-- [ ] Define the 3 core features / value props to highlight
+- [ ] Write the hero headline (8 words max) and subheadline
+- [ ] Define 6 features to highlight (icon/emoji + 3–5 word title + 2-sentence description each)
+- [ ] Write 3 testimonials (quote, name, role, company) for the social proof section
+- [ ] Define Free tier (4 features) and Pro tier pricing ($19/mo, 6 features)
 - [ ] Decide on a CTA action (sign up, waitlist, buy, learn more)
 
 ### Structure
 - [ ] Build `HeroSection` component
-- [ ] Build `FeaturesSection` component
-- [ ] Build `SocialProofSection` (logos, testimonials, or stats)
-- [ ] Build `PricingSection` or `CTASection`
-- [ ] Build `Footer` with nav links and legal copy
+- [ ] Build `FeaturesSection` component (3-column grid, 6 cards)
+- [ ] Build `SocialProofSection` (3 testimonial cards: quote, name, role, company, 5-star rating)
+- [ ] Build `PricingSection` (Free + Pro tiers, feature lists, CTA buttons, "Most Popular" badge on Pro)
+- [ ] Build `Footer` (brand column + Product/Company/Legal link columns + copyright)
 - [ ] Wire all sections into `app/page.tsx`
 
 ### Design
